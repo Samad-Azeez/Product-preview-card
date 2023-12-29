@@ -103,11 +103,10 @@ button > p{
 
 @media (width <= 425px){
     .card{
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
-        max-width: 80%;
+        width: 80%;
+        border-radius: 10px;
     }
 
     .desktop-img{
@@ -120,14 +119,6 @@ button > p{
         height: 100%;
         border-radius: inherit;
         object-fit: contain;
-    }
-
-    .card{
-        height: 60%;
-        max-width: 85%;
-        border-radius: 10px;
-        padding: none;
-        margin: none;
     }
 
     .card > div{
