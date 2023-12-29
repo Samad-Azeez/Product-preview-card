@@ -102,11 +102,16 @@ button > p{
 }
 
 @media (width <= 425px){
+    body{
+        display: block;
+    }
     .card{
         flex-direction: column;
         justify-content: flex-start;
         width: 80%;
         border-radius: 10px;
+        margin-left: 16%;
+        margin-right: auto;
     }
 
     .desktop-img{
