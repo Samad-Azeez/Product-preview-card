@@ -81,6 +81,10 @@ button{
     border-radius: 8px;
 }
 
+button:hover{
+    background-color: hsl(157, 35%, 19%);;
+}
+
 button > img{
     height: 1.2rem;
     width: 1.2rem;
